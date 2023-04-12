@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Windstitch Study</title>
+  </head>
+  <body>
+    <h1>Windstitch Study</h1>
+    <p>This repository is intended for the study of the <b>Windstitch</b> library, which enables the use of the Tailwind framework with components similar to Stitch. It also contains optimized configurations for Next.js 13 and uses tools like lint and commitlint to maintain consistent and standardized code.</p>
+    <h2>About Windstitch</h2>
+<p>Windstitch is a library that provides a set of pre-built components that can be used with the Tailwind CSS framework. It combines the simplicity and flexibility of Tailwind with the ease of use of pre-built components. This makes it easier to create UIs with a consistent look and feel, without having to build each component from scratch.</p>
 
-## Getting Started
+<h2>Getting Started</h2>
+<ol>
+  <li>Clone this repository to your local machine.</li>
+  <li>Install the dependencies by running <code>yarn</code>.</li>
+  <li>Run the development server with <code>yarn dev</code>.</li>
+</ol>
 
-First, run the development server:
+<h2>Contributing</h2>
+<p>Contributions are welcome and encouraged! If you find a bug or have a feature request, please open an issue. If you would like to contribute code, please follow these steps:</p>
+<ol>
+  <li>Fork this repository.</li>
+  <li>Create a new branch with a descriptive name (<code>git checkout -b my-new-feature</code>).</li>
+  <li>Make your changes and commit them (<code>git commit -am 'Add some feature'</code>).</li>
+  <li>Push your changes to your forked repository (<code>git push origin my-new-feature</code>).</li>
+  <li>Open a pull request.</li>
+</ol>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-[http://localhost:3000/api/hello](http://localhost:3000/api/hello) is an endpoint that uses [Route Handlers](https://beta.nextjs.org/docs/routing/route-handlers). This endpoint can be edited in `app/api/hello/route.ts`.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<h2>License</h2>
+<p>This project is licensed under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+  </body>
+</html>

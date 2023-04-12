@@ -12,22 +12,22 @@ RC=\033[0m
 # └─────────────────────────────────────────────────────────────────────────────┘
 .PHONY: build
 build:
-	@docker rm mont-dashboard 2>/dev/null || true
-	@docker rmi mont-dashboard_image 2>/dev/null || true
-	@docker build . -t mont-dashboard_image
-	@docker create --name mont-dashboard -p 3001:3000 mont-dashboard_image
+	@docker rm next-app 2>/dev/null || true
+	@docker rmi next-app_image 2>/dev/null || true
+	@docker build . -t next-app_image
+	@docker create --name next-app -p 3001:3000 next-app_image
 
 .PHONY: stop
 stop:
-	@docker stop mont-dashboard
+	@docker stop next-app
 
 .PHONY: sh
 sh:
-	@docker exec -it mont-dashboard sh
+	@docker exec -it next-app sh
 
 .PHONY: start
 start:
-	@docker start mont-dashboard
+	@docker start next-app
 
 # ┌─────────────────────────────────────────────────────────────────────────────┐
 # │ Help                                                                        │
@@ -36,10 +36,10 @@ help:
 	@echo ""
 	@echo -e "${CY}Usage:${RC}"
 	@echo -e "   make ${CG}<command>${RC}"
-	@echo  ""
+	@echo ""
 	@echo -e "${CY}Infra commands:${RC}"
 	@echo -e "${CG}   build               ${RC}Build all containers"
 	@echo -e "${CG}   start               ${RC}Start all containers"
 	@echo -e "${CG}   stop                ${RC}Stop all containers"
 	@echo -e "${CG}   sh                  ${RC}Enter inside a container"
-	@echo  ""
+	@echo ""

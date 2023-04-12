@@ -54,6 +54,7 @@
     }
   ],
   "rules": {
+    "import/no-extraneous-dependencies": "off",
     "react-hooks/rules-of-hooks": "error",
     "react-hooks/exhaustive-deps": "error",
     "react/jsx-uses-react": "error",
@@ -95,9 +96,10 @@
     "prettier/prettier": [
       "error",
       {
+        "semi": false,
         "singleQuote": true,
-        "trailingComma": "all",
-        "arrowParens": "avoid",
+        "arrowParens": "always",
+        "trailingComma": "none",
         "endOfLine": "auto"
       }
     ],

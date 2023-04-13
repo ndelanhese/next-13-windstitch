@@ -1,8 +1,4 @@
 <html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Windstitch Study</title>
-  </head>
   <body>
     <h1>Windstitch Study</h1>
     <p>This repository is intended for the study of the <b>Windstitch</b> library, which enables the use of the Tailwind framework with components similar to Stitch. It also contains optimized configurations for Next.js 13 and uses tools like lint and commitlint to maintain consistent and standardized code.</p>
